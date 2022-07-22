@@ -54,9 +54,18 @@ body {
 .w50 {
     width: 50%;
 }
+.w30 {
+    width: 30%;
+}
 
 .h100 {
     height: 100%;
+}
+.h50 {
+    height: 50%;
+}
+.h30 {
+    height: 30%;
 }
 
 .bg-primary {
@@ -70,6 +79,12 @@ body {
 }
 .txt-white {
     color: white;
+}
+.txt-primary {
+    color: var(--primary);
+}
+.txt-dark {
+    color: var(--dark);
 }
 
 a.btn {
