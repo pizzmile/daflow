@@ -83,6 +83,9 @@ body {
 .txt-primary {
     color: var(--primary);
 }
+.txt-secondary {
+    color: var(--secondary);
+}
 .txt-dark {
     color: var(--dark);
 }
@@ -144,6 +147,10 @@ a.btn.primary:active {
 }
 #header-title {
     align-items: end;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--dark);
 }
 
 @media only screen and (max-width: 800px) {
