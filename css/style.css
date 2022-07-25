@@ -142,17 +142,7 @@ a.btn.primary:active {
     display: none;
 }
 
-#header-illustration {
-    display: flex;
-}
-#header-title {
-    align-items: end;
-}
-
-.border-bottom {
-    border-bottom: 1px solid var(--dark);
-}
-
+/* Responsive design */
 @media only screen and (max-width: 800px) {
     .navbar {
         display: flex;
